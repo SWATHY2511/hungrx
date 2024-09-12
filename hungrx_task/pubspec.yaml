@@ -1,0 +1,35 @@
+name: hungrx_task
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0-175.0.dev
+
+dependencies:
+  firebase_auth: ^5.2.1
+  firebase_core: ^3.4.1
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/text/Poppins-Regular.ttf
+        - asset: assets/text/Poppins-Medium.ttf
+        - asset: assets/text/Poppins-Bold.ttf
+    - family: Notosans
+      fonts:
+        - asset: assets/text/Notosans-Regular.ttf
+        - asset: assets/text/Notosans-Medium.ttf
+        - asset: assets/text/Notosans-Bold.ttf
